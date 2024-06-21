@@ -35,7 +35,7 @@ int main (int argc, char *argv[]) {
     int opcion,numHabitacion,numReserva;
     do
     {   
-        printf("Escoja una opcion:\n1.Buscar Habitacion\n2.Realizar reserva\n3.Ver reservas\n4.Pagar Reserva");
+        printf("Escoja una opcion:\n\n1.Buscar Habitacion\n\n2.Realizar reserva○2\n\n3.Ver reservas\n\n4.Pagar Reserva\n\n");
         scanf("%d",&opcion);
         switch (opcion)
         {

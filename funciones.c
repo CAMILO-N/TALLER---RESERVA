@@ -136,15 +136,11 @@ void buscarReservaPorCedula(int *numReserva, char clientes[][2][40], int reserva
 
 void pagarReserva(int numReserva, int reservas[][4], char habitaciones[][3][40], double precios[]) {
 
-    if (numReserva < 0 || numReserva >= 10 || reservas[numReserva][0] == -1) {
-        printf("Reserva no encontrada\n");
-        return;
-    }
+
 
   
     printf("------------------------------------\n");
     printf("Detalles de la reserva a pagar:\n");
-    printf("Numero de reserva: %d\n", numReserva);
     printf("Numero de habitacion: %d\n", reservas[numReserva][1]);
     printf("Precio total: %.2lf\n", precios[reservas[numReserva][1] - 1]); 
 
